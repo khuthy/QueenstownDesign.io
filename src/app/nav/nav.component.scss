@@ -1,0 +1,67 @@
+.nav-bar {
+    display:  grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
+    color: #ebf5fa;
+    justify-content: center;
+}
+.nav-bar > div {
+    border-right: 2px solid #b0c3c9;
+    border-bottom: 2px solid #b0c3c9;
+    padding: 15px;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+}
+.title p{
+    
+    margin-top: 9px; 
+}
+
+.nav1  {
+    text-align: right;
+}
+.nav1 a:first-child, .nav2 a:first-child{
+    margin-right: 40px;
+    
+}
+a {
+    color: #f8f8f8;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.material-icons {
+
+    margin-top: 10px;
+    position: static;
+}
+.login-btn {
+    margin-left: 15px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.stories {
+    margin-top: 10px;
+    position: absolute;
+}
+.contact {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 100px; 
+}
+.trip {
+    margin-left: -200px;
+    margin-top: 10px;
+    position: absolute;
+}
+.journal {
+    margin-left: -100px;
+    margin-top: 10px;
+    position: absolute;
+}
+.icon a {
+    padding: 10px;
+    margin-left: 10px;
+}
